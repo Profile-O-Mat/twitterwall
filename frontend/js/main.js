@@ -5,8 +5,8 @@ function formatDate(d) {
 $(function() {
   t = document.getElementById('timeline')
 
-  var ws = new WebSocket("ws://:8000");
-  
+  var ws = new WebSocket("ws://192.168.2.164:8000");
+
   ws.onopen = function(){
     console.log("Socket has been opened!");
   };
