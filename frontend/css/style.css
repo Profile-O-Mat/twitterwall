@@ -19,6 +19,9 @@ p {
   margin: auto;
   max-width: 1400px;
 }
+.timeline {
+  box-shadow: 0px 0px 3px #ccc;
+}
 .tweet {
   border-top: 1px #f1f1f1 solid;
   padding: 40px;
