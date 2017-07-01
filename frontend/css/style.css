@@ -100,33 +100,25 @@ p {
   background-color: #4CAF50;
   height: 100%;
 }
-.red {
+.red, .CDU, .SPD {
   background-color: #F44336;
   color: #fff;
 }
-.black {
+.black, .linke {
   background-color: #000;
   color: #fff;
 }
-.green {
+.green, .b90 {
   background-color: #4CAF50;
   color: #fff;
 }
-.blue {
+.blue, .CSU, .AfD {
   background-color: #2196F3;
   color: #fff;
 }
-.darkblue {
-  background-color: #0D47A1;
-  color: #fff;
-}
-.yellow {
-  background-color: #FFEB3B;
-  color: #fff;
-}
-.orange {
-  background-color: #FF9800;
-  color: #fff;
+.blank {
+  background-color: #eee;
+  color: #444;
 }
 footer {
   text-align: center;
