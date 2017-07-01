@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F1F1F1;
+  color: #444;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 100;
+}
+p {
+  margin: 0;
+  font-weight: 300;
+}
+.content {
+  margin: auto;
+  max-width: 1400px;
+}
+.timeline {
+  background-color: #fff;
+}
+.tweet {
+  border-top: 1px #f1f1f1 solid;
+  padding: 40px;
+}
+.tweet:first-child {
+  border-top: none;
+}
+.tweet-avatar {
+  border: 1px #f1f1f1 solid;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline;
+  position: absolute;
+}
+.tweet-content {
+  margin-left: 140px;
+}
+.tweet-content > h1 {
+  font-weight: 300;
+  color: #666;
+  margin-top: 0px;
+}
+.tweet-content > h2{
+  color: #888;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.timestamp {
+  color: #888;
+  margin-top: 10px;
+  font-weight: 700;
+}
